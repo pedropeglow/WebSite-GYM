@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym! Venha Conhecer!</title>
+
+    <!-- Importação de Links-->
+    <!-- GRID CSS -->
+    <link rel="stylesheet" href="vendors/css/grid.css" />
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
+    <!-- FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+    <!-- ICONS-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"
+  />
+  </head>
+  <body>
+    <!-- NavBar Menu Responsivo -->
+    <header>
+      <div class="header-wrapper">
+        <div class="clear"></div>
+        <!--logo-->
+        <div class="logo left">
+          <img src="resources/img/gym-icon.svg" alt="Homem fazendo exercicio"
+            class="logo"
+          />
+        </div>
+        <nav class="desktop right">
+          <ul>
+            <li><a class="nav-link" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#planos">Planos</a></li>
+            <li><a class="nav-link" href="#ingym">#InGym</a></li>
+            <li><a class="nav-link" href="contato.html">Contato</a></li>
+            <li><a class="nav-link" href="#sobrenos">Sobre Nós</a></li>
+          </ul>
+        </nav>
+        <nav class="mobile right">
+          <i class="fa fa-bars mobile-nav-btn"></i>    
+          <ul>      
+            <li><a class="nav-link" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#planos">Planos</a></li>
+            <li><a class="nav-link" href="#ingym">#InGym</a></li>
+            <li><a class="nav-link" href="contato.html">Contato</a></li>
+            <li><a class="nav-link" href="#sobrenos">Sobre Nós</a></li>      
+          </ul>   
+        </nav>
+        <div class="clear"></div>
+      </div>
+      <!-- Texto dentro do Hero Header -->
+      <div class="hero-text">
+        <h1>Bem Vindo a GYM!!</h1>
+        <h2 id="subtext">
+          A Gym incentiva a prática e a disseminação dos benefícios do exercício
+          fisico,<br>promovendo a saúde, o bem-estar físico e a confraternização.
+        </h2>
+      </div> 
+    </header>
+    <!-- Seção Planos-->
+    <section id="planos" class="section-planos">
+      <div class="row">
+        <h2>Custo e Benefício - Aproveita nossa BLACKFRIDAY</h2>
+      </div>
+      <div class="selecao-planos">
+        <div class="card-plano">
+          <ion-icon name="fitness-outline"></ion-icon>
+          <h3>Plano Mensal</h3>
+          <h3 class="risco1">R$59,99</h3>
+          <h3>R$49,99</h3>
+          <p>-Com taxa de adesão de R$30,00</p>
+          <p>-Com taxa de cancelamento</p>
+          <a class="btn btn-planos" href="#">Comece Agora!</a>
+        </div>
+        <div class="card-plano">
+          <ion-icon name="fitness-outline"></ion-icon>
+          <h3>Plano Trimestral</h3>
+          <h3 class="risco2">R$159,99</h3>
+          <h3>R$139,99</h3>
+          <p>-Com taxa de adesão de R$30,00</p>
+          <p>-Sem taxa de cancelamento</p>
+          <a class="btn btn-planos" href="#">Comece Agora!</a>
+        </div>
+        <div class="card-plano">
+          <ion-icon name="fitness-outline"></ion-icon>
+          <h3>Plano Anual</h3>
+          <h3 class="risco3">R$659,99</h3>
+          <h3>R$649,99</h3>
+          <p>-Com taxa de adesão de R$10,00</p>
+          <p>-Sem taxa de cancelamento</p>
+          <a class="btn btn-planos" href="#">Comece Agora!</a>
+        </div>
+      </div>
+    </section>
+    <!-- Seção #INGYM-->
+    <section id="ingym" class="section-ingym">
+      <div class="row">
+        <h2>#InGYM</h2>
+      </div>
+      <div class="depoimento">
+        <div class="card-ingym">
+          <blockquote>
+            Academia extremamente comprometida com seus alunos e com a
+            higienização da academia em época de covid. É um ótimo espaço com
+            ótimos profissionais para nos atender. Está sendo uma ótima
+            experiência.
+            <cite> Rodrigo Nascimento </cite>
+          </blockquote>
+        </div>
+        <div class="card-ingym">
+          <p class="pInGym">
+            Seu FeedBack é essencial para nós, acesse o botão abaixo para
+            preencher o formulário e mandar suas satisfações e críticas
+            construtivas!
+          </p>
+          <div class="botao-ingym">
+          <a class="btn btn-planos" href="contato.html">Formulário</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Seção Sobre Nós-->
+    <div id="sobrenos" class="section-sobrenos">
+      <div class="container-sobrenos">
+          <h1>Sobre Nós</h1>
+          <p class="texto-sobrenos">
+            A Academia GYM foi fundada no ano de 2018, temos orgulho em afirmar que mais de 75% de nossos alunos estão conosco desde nossa fundação. Aprendemos muito ao longo dessa caminhada, fizemos muitos amigos. Nosso atendimento exclusivo e nossa preocupação em oferecer sempre o melhor faz da nossa academia, um ponto de encontro entre amigos, aqui tem muita energia positiva!
+          </p>
+          <div class="sobrenos">
+              <a href="contato.html"><span>Formulário</span></a>
+              <a href="#planos"><span>Planos</span></a>
+              <a href="#ingym"><span>#InGym</span></a>
+          </div>
+      </div>
+  </div>
+    <!-- Seção Galeria-->
+    <section id="galeria" class="section-galeria">
+      <div class="conteudo-galeria">
+        <div class="cabecalho-galeria">
+          <h3>Galeria</h3>
+        </div>
+        <div class="caixa-galeria">
+          <div class="fotos">
+            <img src="resources/css/img/1.jpg" alt="Imagem de academia"/>
+            <img src="resources/css/img/2.jpg" alt="Imagem de equipamentos na academia"/>
+            <img src="resources/css/img/3.jpg" alt="Homem levantando peso na academia"/>
+          </div>
+
+          <div class="fotos">
+            <img src="resources/css/img/4.jpg" alt="Mulher fazendo abdominais na academia"/>
+            <img src="resources/css/img/5.jpg" alt="Mulher fazendo exercicios com cordas na academia"/>
+            <img src="resources/css/img/6.jpg" alt="Academia com equipamentos"/>
+          </div>
+
+          <div class="fotos">
+            <img src="resources/css/img/7.jpg" alt="Anilha de academia"/>
+            <img src="resources/css/img/8.jpg" alt="Anilha vermelha de academia"/>
+            <img src="resources/css/img/9.jpg" alt="Academia com equipamentos e pessoas no fundo"/>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Seção Footer-->
+    <footer class="footer">
+      <div class="conteudoFooter">
+        <div class="LinhasFooter">
+          <div class="footer-coluna">
+            <h4>Academia</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#sobrenos">Nossa História</a></li>
+              <li><a href="#">Nossos Serviços</a></li>
+              <li><a href="#">Política de Privacidade</a></li>
+            </ul>
+          </div>
+          <div class="footer-coluna">
+            <h4>Peça Nossa Ajuda</h4>
+            <ul>
+              <li><a href="contato.html">FAQ</a></li>
+              <li><a href="contato.html">Chat</a></li>
+              <li><a href="contato.html">Telefone (51) 3000-0000</a></li>
+              <li><a href="contato.html">Whats-App (51) 99000-0000</a></li>
+            </ul>
+          </div>
+          <div class="footer-coluna">
+            <h4>Utilize nossos Serviços</h4>
+            <ul>
+              <li><a href="#planos">Planos</a></li>
+              <li><a href="contato.html">Contato</a></li>
+              <li>
+                <a href="contato.html"
+                  >Rua Visconde Duprat - 505 - Petrópolis - Porto Alegre</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-coluna">
+            <h4>Acompanhe nossas Redes Sociais</h4>
+            <div class="social-links">
+              <a href="#"><ion-icon class="logo-instagram" name="logo-instagram"></ion-icon></a>
+              <a href="#"><ion-icon class="logo-facebook" name="logo-facebook"></ion-icon></a>
+              <a href="#"><ion-icon class="logo-googleplus" name="logo-google"></ion-icon></a>
+              <a href="#"><ion-icon class="logo-twitter" name="logo-twitter"></ion-icon></a>    
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./resources/js/jquery.min.js"></script>
+    <script src="./resources/js/script.js"></script>
+  </body>
+</html>
